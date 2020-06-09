@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTH-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="border"></div>
+            <div class="border"></div>
+        </div>
+        <svg>
+            <defs>
+                <filter id='goo'>
+                    <feGaussianBlur in='SourceGraphic'
+                    stdDeviation='20' />
+                    <feColorMatrix in='name' mode='matrix'
+                    values='1 0 0 0 0
+                            0 1 1 1 0
+                            4 0 1 0 0
+                            0 0 0 3 -1' />
+                    <feBlend in='SourceGraphic' />
+                    
+                </filter>
+            </defs>
+        </svg>
+    </body>
+</html>
